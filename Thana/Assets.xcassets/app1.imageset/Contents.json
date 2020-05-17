@@ -1,0 +1,92 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "a4b0f162-88e7-445a-937b-b7fa9cd210b1-2.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "a4b0f162-88e7-445a-937b-b7fa9cd210b1-1.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "64910761-020b-4e2c-add4-ac3312b0c393.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "a4b0f162-88e7-445a-937b-b7fa9cd210b1@2x-2.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "a4b0f162-88e7-445a-937b-b7fa9cd210b1@2x-1.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "64910761-020b-4e2c-add4-ac3312b0c393@2x.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "a4b0f162-88e7-445a-937b-b7fa9cd210b1@3x-2.jpg",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "a4b0f162-88e7-445a-937b-b7fa9cd210b1@3x-1.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "64910761-020b-4e2c-add4-ac3312b0c393@3x.jpg",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5500DA792413AFF000D42E2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5500DA782413AFEF00D42E2B /* GoogleService-Info.plist */; };
+		554963AC24274C2600577515 /* emergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554963AB24274C2600577515 /* emergencyViewController.swift */; };
+		554963AE24274D8A00577515 /* detailEmergencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554963AD24274D8A00577515 /* detailEmergencyController.swift */; };
+		5561E8BF2460AD6600502341 /* profileViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561E8BE2460AD6600502341 /* profileViewCellViewController.swift */; };
+		5595CCDF242A1B2B0006DEC8 /* cellContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595CCDE242A1B2B0006DEC8 /* cellContrller.swift */; };
+		55ADF7C7245D3F59009F0353 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ADF7C6245D3F59009F0353 /* Constants.swift */; };
+		55C67D892405A12300953884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C67D882405A12300953884 /* AppDelegate.swift */; };
+		55C67D8B2405A12300953884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C67D8A2405A12300953884 /* SceneDelegate.swift */; };
+		55C67D8D2405A12300953884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C67D8C2405A12300953884 /* ViewController.swift */; };
+		55C67D902405A12300953884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C67D8E2405A12300953884 /* Main.storyboard */; };
+		55C67D922405A12400953884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C67D912405A12400953884 /* Assets.xcassets */; };
+		55C67D952405A12400953884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C67D932405A12400953884 /* LaunchScreen.storyboard */; };
+		55D9960D2417FD70002610FA /* optionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9960C2417FD70002610FA /* optionViewController.swift */; };
+		55D9960F2417FE47002610FA /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D9960E2417FE47002610FA /* signInViewController.swift */; };
+		55F9F5042425806E006BD006 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9F5032425806E006BD006 /* addViewController.swift */; };
+		55F9F50624258083006BD006 /* timelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9F50524258083006BD006 /* timelineViewController.swift */; };
+		CDF365D7949E6D5C8DFC27E1 /* Pods_Thana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CE87B6FE542DEAF298B3F97 /* Pods_Thana.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CE87B6FE542DEAF298B3F97 /* Pods_Thana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B00BA16C754FE2F298B2555 /* Pods-Thana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thana.release.xcconfig"; path = "Target Support Files/Pods-Thana/Pods-Thana.release.xcconfig"; sourceTree = "<group>"; };
+		5500DA782413AFEF00D42E2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		554963AB24274C2600577515 /* emergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergencyViewController.swift; sourceTree = "<group>"; };
+		554963AD24274D8A00577515 /* detailEmergencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailEmergencyController.swift; sourceTree = "<group>"; };
+		5561E8BE2460AD6600502341 /* profileViewCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewCellViewController.swift; sourceTree = "<group>"; };
+		5585901F245D4E13004D1297 /* Thana.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Thana.entitlements; sourceTree = "<group>"; };
+		5595CCDE242A1B2B0006DEC8 /* cellContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellContrller.swift; sourceTree = "<group>"; };
+		55ADF7C6245D3F59009F0353 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		55C67D852405A12300953884 /* Thana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C67D882405A12300953884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55C67D8A2405A12300953884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55C67D8C2405A12300953884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55C67D8F2405A12300953884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55C67D912405A12400953884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C67D942405A12400953884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55D9960C2417FD70002610FA /* optionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionViewController.swift; sourceTree = "<group>"; };
+		55D9960E2417FE47002610FA /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		55F9F5032425806E006BD006 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		55F9F50524258083006BD006 /* timelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelineViewController.swift; sourceTree = "<group>"; };
+		E0906A162FB270A7BC09247E /* Pods-Thana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thana.debug.xcconfig"; path = "Target Support Files/Pods-Thana/Pods-Thana.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C67D822405A12300953884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF365D7949E6D5C8DFC27E1 /* Pods_Thana.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37C113536A0820A671E3DAC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0906A162FB270A7BC09247E /* Pods-Thana.debug.xcconfig */,
+				3B00BA16C754FE2F298B2555 /* Pods-Thana.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55C67D7C2405A12300953884 = {
+			isa = PBXGroup;
+			children = (
+				55C67D872405A12300953884 /* Thana */,
+				55C67D862405A12300953884 /* Products */,
+				37C113536A0820A671E3DAC4 /* Pods */,
+				E285A5F32EBE947365177D86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55C67D862405A12300953884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C67D852405A12300953884 /* Thana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C67D872405A12300953884 /* Thana */ = {
+			isa = PBXGroup;
+			children = (
+				5585901F245D4E13004D1297 /* Thana.entitlements */,
+				55C67D882405A12300953884 /* AppDelegate.swift */,
+				55C67D8A2405A12300953884 /* SceneDelegate.swift */,
+				55C67D8C2405A12300953884 /* ViewController.swift */,
+				55C67D8E2405A12300953884 /* Main.storyboard */,
+				554963AB24274C2600577515 /* emergencyViewController.swift */,
+				5595CCDE242A1B2B0006DEC8 /* cellContrller.swift */,
+				554963AD24274D8A00577515 /* detailEmergencyController.swift */,
+				55F9F5032425806E006BD006 /* addViewController.swift */,
+				5561E8BE2460AD6600502341 /* profileViewCellViewController.swift */,
+				55F9F50524258083006BD006 /* timelineViewController.swift */,
+				55D9960E2417FE47002610FA /* signInViewController.swift */,
+				55D9960C2417FD70002610FA /* optionViewController.swift */,
+				55C67D912405A12400953884 /* Assets.xcassets */,
+				55C67D932405A12400953884 /* LaunchScreen.storyboard */,
+				5500DA782413AFEF00D42E2B /* GoogleService-Info.plist */,
+				55ADF7C6245D3F59009F0353 /* Constants.swift */,
+			);
+			path = Thana;
+			sourceTree = "<group>";
+		};
+		E285A5F32EBE947365177D86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CE87B6FE542DEAF298B3F97 /* Pods_Thana.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C67D842405A12300953884 /* Thana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C67D992405A12400953884 /* Build configuration list for PBXNativeTarget "Thana" */;
+			buildPhases = (
+				B68BB562DF401BAFEA6FC3DD /* [CP] Check Pods Manifest.lock */,
+				55C67D812405A12300953884 /* Sources */,
+				55C67D822405A12300953884 /* Frameworks */,
+				55C67D832405A12300953884 /* Resources */,
+				50B3572369BE4BD3C26073DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thana;
+			productName = Thana;
+			productReference = 55C67D852405A12300953884 /* Thana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C67D7D2405A12300953884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gokul Nair";
+				TargetAttributes = {
+					55C67D842405A12300953884 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 55C67D802405A12300953884 /* Build configuration list for PBXProject "Thana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C67D7C2405A12300953884;
+			productRefGroup = 55C67D862405A12300953884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C67D842405A12300953884 /* Thana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C67D832405A12300953884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C67D952405A12400953884 /* LaunchScreen.storyboard in Resources */,
+				5500DA792413AFF000D42E2B /* GoogleService-Info.plist in Resources */,
+				55C67D922405A12400953884 /* Assets.xcassets in Resources */,
+				55C67D902405A12300953884 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50B3572369BE4BD3C26073DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thana/Pods-Thana-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Thana/Pods-Thana-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Thana/Pods-Thana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68BB562DF401BAFEA6FC3DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C67D812405A12300953884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C67D8D2405A12300953884 /* ViewController.swift in Sources */,
+				55ADF7C7245D3F59009F0353 /* Constants.swift in Sources */,
+				55D9960D2417FD70002610FA /* optionViewController.swift in Sources */,
+				55C67D892405A12300953884 /* AppDelegate.swift in Sources */,
+				55F9F50624258083006BD006 /* timelineViewController.swift in Sources */,
+				55C67D8B2405A12300953884 /* SceneDelegate.swift in Sources */,
+				5595CCDF242A1B2B0006DEC8 /* cellContrller.swift in Sources */,
+				55F9F5042425806E006BD006 /* addViewController.swift in Sources */,
+				554963AC24274C2600577515 /* emergencyViewController.swift in Sources */,
+				5561E8BF2460AD6600502341 /* profileViewCellViewController.swift in Sources */,
+				55D9960F2417FE47002610FA /* signInViewController.swift in Sources */,
+				554963AE24274D8A00577515 /* detailEmergencyController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55C67D8E2405A12300953884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C67D8F2405A12300953884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55C67D932405A12400953884 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C67D942405A12400953884 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55C67D972405A12400953884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55C67D982405A12400953884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C67D9A2405A12400953884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0906A162FB270A7BC09247E /* Pods-Thana.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Thana/Thana.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJM8829Q7N;
+				INFOPLIST_FILE = Thana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokulnair.Thana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55C67D9B2405A12400953884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B00BA16C754FE2F298B2555 /* Pods-Thana.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Thana/Thana.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJM8829Q7N;
+				INFOPLIST_FILE = Thana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gokulnair.Thana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C67D802405A12300953884 /* Build configuration list for PBXProject "Thana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C67D972405A12400953884 /* Debug */,
+				55C67D982405A12400953884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C67D992405A12400953884 /* Build configuration list for PBXNativeTarget "Thana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C67D9A2405A12400953884 /* Debug */,
+				55C67D9B2405A12400953884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C67D7D2405A12300953884 /* Project object */;
+}

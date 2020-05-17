@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>382934781917-1tm1tghg999dfs0bjis9k9j9aqigqq7v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.382934781917-1tm1tghg999dfs0bjis9k9j9aqigqq7v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCcxoFS2TODdf79cKOtoY5VF2NnI9bAKEA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>382934781917</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gokulnair.Thana</string>
+	<key>PROJECT_ID</key>
+	<string>thana-6583a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thana-6583a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:382934781917:ios:07d5e1af791a912d953034</string>
+	<key>DATABASE_URL</key>
+	<string>https://thana-6583a.firebaseio.com</string>
+</dict>
+</plist>
